@@ -9,21 +9,29 @@ class _12931Test {
     public void testCase1() {
         // given
         int num = 123;
-        // when
+        int compareResult = 6;
+
         _12931 object = new _12931();
-        object.solution(num);
+
+        // when
+        int result = object.solution(num);
+
         // then
-        assertThat(object.solution(num)).isEqualTo(6);
+        assertThat(result).isEqualTo(compareResult);
     }
     @Test
     public void testCase2() {
         // given
         int num = 987;
-        // when
+        int compareResult = 24;
+
         _12931 object = new _12931();
-        object.solution(num);
+
+        // when
+        int result = object.solution(num);
+
         // then
-        assertThat(object.solution(num)).isEqualTo(24);
+        assertThat(result).isEqualTo(compareResult);
     }
 
 }

@@ -11,12 +11,15 @@ class _82612Test {
         // given
         int price = 3,
                 money = 20,
-                count = 4,
-        result = 10;
+                count = 4;
+        long compareResult = 10;
+
+        _82612 object = new _82612();
 
         // when
-        _82612 object = new _82612();
+        long result = object.solution(price, money, count);
+
         // then
-        assertThat(object.solution(price, money, count)).isEqualTo(result);
+        assertThat(result).isEqualTo(compareResult);
     }
 }

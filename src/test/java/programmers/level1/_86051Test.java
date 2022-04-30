@@ -10,19 +10,29 @@ class _86051Test {
     void testCase1() {
         // given
         int[] numbers = {1, 2, 3, 4, 6, 7, 8, 0};
-        // when
+        int compareResult = 14;
+
         _86051 object = new _86051();
+
+        // when
+        int result = object.solution(numbers);
+
         // then
-        assertThat(object.solution(numbers)).isEqualTo(14);
+        assertThat(result).isEqualTo(compareResult);
     }
 
     @Test
     void testCase2() {
         // given
         int[] numbers = {5, 8, 4, 0, 6, 7, 9};
-        // when
+        int compareResult = 6;
+
         _86051 object = new _86051();
+
+        // when
+        int result = object.solution(numbers);
+
         // then
-        assertThat(object.solution(numbers)).isEqualTo(6);
+        assertThat(result).isEqualTo(compareResult);
     }
 }

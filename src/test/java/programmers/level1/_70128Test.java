@@ -11,11 +11,15 @@ class _70128Test {
         // given
         int a[] = {1, 2, 3, 4};
         int b[] = {-3, -1, 0, 2};
-        // when
+        int compareResult = 3;
+
         _70128 object = new _70128();
+
+        // when
         int result = object.solution(a, b);
+
         // then
-        assertThat(result).isEqualTo(3);
+        assertThat(result).isEqualTo(compareResult);
     }
 
     @Test
@@ -23,10 +27,14 @@ class _70128Test {
         // given
         int a[] = {-1, 0, 1};
         int b[] = {1, 0, -1};
-        // when
+        int compareResult = -2;
+
         _70128 object = new _70128();
+
+        // when
         int result = object.solution(a, b);
+        
         // then
-        assertThat(result).isEqualTo(-2);
+        assertThat(result).isEqualTo(compareResult);
     }
 }

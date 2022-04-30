@@ -9,11 +9,13 @@ class _77884Test {
     void testCase1() {
         // given
         int left = 13,
-                right = 17,
-                compareResult = 43;
+                right = 17;
+        int compareResult = 43;
         _77884 object = new _77884();
+
         // when
         int result = object.solution(left, right);
+
         // then
         assertThat(result).isEqualTo(compareResult);
     }
@@ -22,11 +24,13 @@ class _77884Test {
     void testCase2() {
         // given
         int left = 24,
-                right = 27,
-                compareResult = 52;
+                right = 27;
+        int compareResult = 52;
         _77884 object = new _77884();
+
         // when
         int result = object.solution(left, right);
+
         // then
         assertThat(result).isEqualTo(compareResult);
     }
