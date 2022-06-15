@@ -1,6 +1,6 @@
 package leetcode.easy;
 
-public class Palindrome_Number {
+public class _9 {
     /*
     * Palindrome Number
     * https://leetcode.com/problems/palindrome-number

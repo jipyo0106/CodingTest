@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-class Palindrome_NumberTest {
+class _9Test {
     @Test
     void solution1_리턴값_true() {
         // given
@@ -12,7 +12,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = true;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution(x);
@@ -27,7 +27,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = false;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution(x);
@@ -42,7 +42,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = false;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution(x);
@@ -57,7 +57,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = false;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution2(x);
@@ -72,7 +72,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = false;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution2(x);
@@ -87,7 +87,7 @@ class Palindrome_NumberTest {
 
         boolean compareResult = false;
 
-        Palindrome_Number object = new Palindrome_Number();
+        _9 object = new _9();
 
         // when
         boolean result = object.solution2(x);
