@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-class Two_SumTest {
+class _1Test {
     @Test
     void solution1_testcase1() {
         // given
@@ -13,7 +13,7 @@ class Two_SumTest {
 
         int[] compareResult = {0, 1};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution(nums, target);
@@ -29,7 +29,7 @@ class Two_SumTest {
 
         int[] compareResult = {1, 2};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution(nums, target);
@@ -46,7 +46,7 @@ class Two_SumTest {
 
         int[] compareResult = {0, 1};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution(nums, target);
@@ -63,7 +63,7 @@ class Two_SumTest {
 
         int[] compareResult = {0, 1};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution2(nums, target);
@@ -79,7 +79,7 @@ class Two_SumTest {
 
         int[] compareResult = {1, 2};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution2(nums, target);
@@ -95,7 +95,7 @@ class Two_SumTest {
 
         int[] compareResult = {0, 1};
 
-        Two_Sum object = new Two_Sum();
+        _1 object = new _1();
 
         // when
         int[] result = object.solution2(nums, target);

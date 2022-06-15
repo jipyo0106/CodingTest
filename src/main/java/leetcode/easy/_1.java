@@ -3,7 +3,7 @@ package leetcode.easy;
 import java.util.HashMap;
 import java.util.Arrays;
 
-public class Two_Sum {
+public class _1 {
     /*
     * Two Sum
     * https://leetcode.com/problems/two-sum/
